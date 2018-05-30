@@ -49,7 +49,7 @@ Implement an endpoint that creates a pulse.
 
 ### List pulses
 
-Implement an endpoint that lists evaluations.
+Implement an endpoint that lists pulses.
 
 #### Scenarios
 
