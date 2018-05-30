@@ -1,24 +1,19 @@
-# The Q-CTRL back-end challenge
+# The Q-CTRL Back-end Challenge
 
-The goal of this challenge is to create a web based API using:
+The goal of this challenge is to create a web-based API using [Django](https://www.djangoproject.com/). The API should be backed by a [MySQL](https://www.mysql.com/) database and conform to the [JSON API](http://jsonapi.org/) specification.
 
-1. [Django](https://www.djangoproject.com/)
-3. [MySQL](https://www.mysql.com/)
-2. [JSON API](http://jsonapi.org/)
-
-To get started please fork this repository and when you're finished create a
-pull request.
+To get started please fork this repository and when you're finished create a pull request.
 
 ## Brief
 
 The brief has been divided into 6 features:
 
-1.  [Create pulse](#create-pulse)
-2.  [List pulse](#list-pulses)
-3.  [Retrieve pulse](#retrieve-pulse)
-4.  [Modify pulse](#modify-pulse)
-5.  [Destroy pulse](#destroy-pulse)
-6.  [Upload pulse](#upload-pulse)
+1.  [Create a pulse](#create-pulse)
+1.  [List all pulses](#list-pulses)
+1.  [Retrieve a pulse](#retrieve-pulse)
+1.  [Modify a pulse](#modify-pulse)
+1.  [Delete a pulse](#destroy-pulse)
+1.  [Upload a pulse](#upload-pulse)
 
 ---
 
@@ -109,5 +104,3 @@ Implement an endpoint that can destroy a specific pulse.
 ### Upload pulse
 
 Implement an endpoint that can accept a CSV file where each row represents a pulse.
-
-
