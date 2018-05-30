@@ -8,12 +8,12 @@ To get started please fork this repository and when you're finished create a pul
 
 The brief has been divided into 6 features:
 
-1.  [Create a pulse](#create-pulse)
-1.  [List all pulses](#list-pulses)
-1.  [Retrieve a pulse](#retrieve-pulse)
-1.  [Modify a pulse](#modify-pulse)
-1.  [Delete a pulse](#destroy-pulse)
-1.  [Upload a pulse](#upload-pulse)
+1.  [Create pulse](#create-pulse)
+1.  [List pulses](#list-pulses)
+1.  [Retrieve pulse](#retrieve-pulse)
+1.  [Modify pulse](#modify-pulse)
+1.  [Delete pulse](#destroy-pulse)
+1.  [Upload pulse](#upload-pulse)
 
 ---
 
