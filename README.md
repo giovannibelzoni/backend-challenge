@@ -15,12 +15,19 @@ The brief has been divided into six features:
 1.  [Delete pulse](#delete-pulse)
 1.  [Upload pulse](#upload-pulse)
 
+Below are the attributes of a pulse. All attributes are required.
+
+| Name              | Type   | Min | Max |
+|-------------------|--------|-----|-----|
+| name              | string |     |     |
+| maximum_rabi_rate | float  | 0   | 100 |
+| polar_angle       | float  | 0   | 1   |
+
 ---
 
 ### Create pulse
 
-Implement an endpoint that creates a pulse. A pulse has a name (string),
-maximum rabi rate(float, between 0 and 100) and polar angle(float, between 0 and 1).
+Implement an endpoint that creates a pulse.
 
 #### Scenarios
 
