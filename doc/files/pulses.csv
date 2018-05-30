@@ -1,4 +1,4 @@
-"Name","Yype","Maximum Rabi Rate","Polar Angle"
+"Name","Type","Maximum Rabi Rate","Polar Angle"
 "My Awesome Pulse","primitive",10,0.5
 "Another Awesome Pulse","corpse",250,0.8
 "A Pretty Good Pulse","gaussian",1,0.1
