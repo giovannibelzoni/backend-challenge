@@ -28,13 +28,13 @@ Implement endpoints that can:
 
 ### Upload pulses
 
-Implement an endpoint that can accept a CSV file where each row represents a pulse.
+Implement an endpoint that can accept a [CSV file](doc/files/pulses.csv) where each row represents a pulse.
 
 ---
 
 ### Download pulses
 
-Implement an endpoint that returns all pulses in CSV format.
+Implement an endpoint that returns all pulses in CSV format. The CSV should not include a header row.
 
 ---
 
