@@ -20,8 +20,8 @@ Implement endpoints that can:
 
 - Create a new pulse
 - List all pulses (five per page)
-- Retrieve a specific pulse
-- Modify a specific pulse
+- Get a specific pulse
+- Update a specific pulse
 - Delete a specific pulse
 
 ---
