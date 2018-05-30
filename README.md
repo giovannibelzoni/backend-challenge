@@ -17,11 +17,12 @@ The brief has been divided into six features:
 
 Below are the attributes of a pulse. All attributes are required.
 
-| Name              | Type   | Min | Max |
-|-------------------|--------|-----|-----|
-| name              | string |     |     |
-| maximum_rabi_rate | float  | 0   | 100 |
-| polar_angle       | float  | 0   | 1   |
+| Name              | Type   | Description                                            |
+|-------------------|--------|--------------------------------------------------------|
+| name              | string |                                                        |
+| type              | string | Valid types: primitive, corpse, gaussian, cinbb, cinsk |
+| maximum_rabi_rate | float  | A floating-point number between 0 and 100              |
+| polar_angle       | float  | A floating-point number between 0 and 1                |
 
 ---
 
