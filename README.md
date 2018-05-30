@@ -12,7 +12,7 @@ The brief has been divided into six features:
 1.  [List pulses](#list-pulses)
 1.  [Retrieve pulse](#retrieve-pulse)
 1.  [Modify pulse](#modify-pulse)
-1.  [Delete pulse](#destroy-pulse)
+1.  [Delete pulse](#delete-pulse)
 1.  [Upload pulse](#upload-pulse)
 
 ---
@@ -89,9 +89,9 @@ Implement an endpoint that can modify a specific pulse.
 
 ---
 
-### Destroy pulse
+### Delete pulse
 
-Implement an endpoint that can destroy a specific pulse.
+Implement an endpoint that can delete a specific pulse.
 
 #### Scenarios
 
