@@ -1,0 +1,381 @@
+[[package]]
+name = "appnope"
+version = "0.1.0"
+description = "Disable App Nap on OS X 10.9"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[package.requirements]
+platform = "darwin"
+[[package]]
+name = "atomicwrites"
+version = "1.1.5"
+description = "Atomic file writes."
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "attrs"
+version = "18.1.0"
+description = "Classes Without Boilerplate"
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "backcall"
+version = "0.1.0"
+description = "Specifications for callback functions passed in to an API"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "colorama"
+version = "0.3.9"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[package.requirements]
+platform = "win32"
+[[package]]
+name = "decorator"
+version = "4.3.0"
+description = "Better living through Python with decorators"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "All"
+
+[[package]]
+name = "django"
+version = "2.0.6"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+category = "main"
+optional = false
+python-versions = ">=3.4"
+platform = "*"
+
+[package.dependencies]
+pytz = "*"
+[[package]]
+name = "djangorestframework"
+version = "3.7.7"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "djangorestframework-jsonapi"
+version = "2.4.0"
+description = "A Django REST framework API adapter for the JSON API spec."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+django = ">=1.11"
+djangorestframework = ">=3.6.3"
+inflection = ">=0.3.0"
+six = "*"
+[[package]]
+name = "inflection"
+version = "0.3.1"
+description = "A port of Ruby on Rails inflector to Python"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "ipdb"
+version = "0.11"
+description = "IPython-enabled pdb"
+category = "main"
+optional = false
+python-versions = ">=2.7"
+platform = "*"
+
+[package.dependencies]
+setuptools = "*"
+ipython = ">=5.0.0"
+[[package]]
+name = "ipython"
+version = "6.4.0"
+description = "IPython: Productive Interactive Computing"
+category = "main"
+optional = false
+python-versions = ">=3.3"
+platform = "Linux"
+
+[package.dependencies]
+colorama = "*"
+appnope = "*"
+pexpect = "*"
+backcall = "*"
+pygments = "*"
+prompt-toolkit = ">=1.0.15,<2.0.0"
+traitlets = ">=4.2"
+simplegeneric = ">0.8"
+pickleshare = "*"
+decorator = "*"
+jedi = ">=0.10"
+setuptools = ">=18.5"
+[package.requirements]
+python = ">=3.3"
+[[package]]
+name = "ipython-genutils"
+version = "0.2.0"
+description = "Vestigial utilities from IPython"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "Linux"
+
+[[package]]
+name = "jedi"
+version = "0.12.0"
+description = "An autocompletion tool for Python that can be used for text editors."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+platform = "any"
+
+[package.dependencies]
+parso = ">=0.2.0"
+[[package]]
+name = "more-itertools"
+version = "4.2.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+six = ">=1.0.0,<2.0.0"
+[[package]]
+name = "mysqlclient"
+version = "1.3.12"
+description = "Python interface to MySQL"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "ALL"
+
+[[package]]
+name = "parso"
+version = "0.2.1"
+description = "A Python Parser"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "any"
+
+[[package]]
+name = "pexpect"
+version = "4.6.0"
+description = "Pexpect allows easy control of interactive console applications."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNIX"
+
+[package.dependencies]
+ptyprocess = ">=0.5"
+[package.requirements]
+platform = "!=win32"
+[[package]]
+name = "pickleshare"
+version = "0.7.4"
+description = "Tiny 'shelve'-like database with concurrency support"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "pluggy"
+version = "0.6.0"
+description = "plugin and hook calling mechanisms for python"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "unix"
+
+[[package]]
+name = "prompt-toolkit"
+version = "1.0.15"
+description = "Library for building powerful interactive command lines in Python"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+six = ">=1.9.0"
+wcwidth = "*"
+[[package]]
+name = "ptyprocess"
+version = "0.5.2"
+description = "Run a subprocess in a pseudo terminal"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "py"
+version = "1.5.3"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "unix"
+
+[[package]]
+name = "pygments"
+version = "2.2.0"
+description = "Pygments is a syntax highlighting package written in Python."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "any"
+
+[[package]]
+name = "pytest"
+version = "3.6.1"
+description = "pytest: simple powerful testing with Python"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "unix"
+
+[package.dependencies]
+colorama = "*"
+pluggy = ">=0.5,<0.7"
+atomicwrites = ">=1.0"
+more-itertools = ">=4.0.0"
+attrs = ">=17.4.0"
+setuptools = "*"
+six = ">=1.10.0"
+py = ">=1.5.0"
+[[package]]
+name = "pytest-django"
+version = "3.2.1"
+description = "A Django plugin for pytest."
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "*"
+
+[package.dependencies]
+pytest = ">=2.9"
+[[package]]
+name = "pytz"
+version = "2018.4"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "Independent"
+
+[[package]]
+name = "setuptools"
+version = "39.2.0"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+category = "main"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+platform = "*"
+
+[[package]]
+name = "simplegeneric"
+version = "0.8.1"
+description = "Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "six"
+version = "1.11.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "traitlets"
+version = "4.3.2"
+description = "Traitlets Python config system"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "Linux,Mac OS X,Windows"
+
+[package.dependencies]
+decorator = "*"
+ipython-genutils = "*"
+six = "*"
+[[package]]
+name = "wcwidth"
+version = "0.1.7"
+description = "Measures number of Terminal column cells of wide-character codes"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[metadata]
+python-versions = "3.6"
+platform = "*"
+content-hash = "6731a385d73055a39e5933c4a28dd4a3e3ebbd5dfc09cf033ce59a4a6565e0cb"
+
+[metadata.hashes]
+appnope = [ "5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0", "8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71",]
+atomicwrites = [ "a24da68318b08ac9c9c45029f4a10371ab5b20e4226738e150e6e7c571630ae6", "240831ea22da9ab882b551b31d4225591e5e447a68c5e188db5b89ca1d487585",]
+attrs = [ "4b90b09eeeb9b88c35bc642cbac057e45a5fd85367b985bd2809c62b7b939265", "e0d0eb91441a3b53dab4d9b743eafc1ac44476296a2053b6ca3af0b139faf87b",]
+backcall = [ "38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4", "bbbf4b1e5cd2bdb08f915895b51081c041bac22394fdfcfdfbe9f14b77c08bf2",]
+colorama = [ "463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda", "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1",]
+decorator = [ "2c51dff8ef3c447388fe5e4453d24a2bf128d3a4c32af3fabef1f01c6851ab82", "c39efa13fbdeb4506c476c9b3babf6a718da943dab7811c206005a4a956c080c",]
+django = [ "69ff89fa3c3a8337015478a1a0744f52a9fef5d12c1efa01a01f99bcce9bf10c", "3eb25c99df1523446ec2dc1b00e25eb2ecbdf42c9d8b0b8b32a204a8db9011f8",]
+djangorestframework = [ "1f6baf40ed456ed2af6bd1a4ff8bbc3503cebea16509993aea2b7085bc097766", "9f9e94e8d22b100ed3a43cee8c47a7ff7b185e778a1f2da9ec5c73fc4e081b87",]
+djangorestframework-jsonapi = [ "a0cdd0ce8ac72b85cd45c8683762117248bc0e6b21b9772b79ef3833181b6033", "599d3f4fa5e4e0479a0ccc68802a1cc21dd2e0b1e6dfe1e9ea5b9c232e83a50b",]
+inflection = [ "18ea7fb7a7d152853386523def08736aa8c32636b047ade55f7578c4edeb16ca",]
+ipdb = [ "7081c65ed7bfe7737f83fa4213ca8afd9617b42ff6b3f1daf9a3419839a2a00a",]
+ipython = [ "a0c96853549b246991046f32d19db7140f5b1a644cc31f0dc1edc86713b7676f", "eca537aa61592aca2fef4adea12af8e42f5c335004dfa80c78caf80e8b525e5c",]
+ipython-genutils = [ "72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8", "eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8",]
+jedi = [ "5861f6dc0c16e024cbb0044999f9cf8013b292c05f287df06d3d991a87a4eb89", "1972f694c6bc66a2fac8718299e2ab73011d653a6d8059790c3476d2353b99ad",]
+more-itertools = [ "a18d870ef2ffca2b8463c0070ad17b5978056f403fb64e3f15fe62a52db21cc0", "6703844a52d3588f951883005efcf555e49566a48afd4db4e965d69b883980d3", "2b6b9893337bfd9166bee6a62c2b0c9fe7735dcf85948b387ec8cba30e85d8e8",]
+mysqlclient = [ "b3b1a7e4468180afb79289b54069d9499242946a4cedf3928cbf6b2a13800016", "d56e379c03efad746e84705cbb97401f60d1f98b05e11a27f2d9c2d043936974", "371df79d000af56b4e540b7ce2120d1c9afb04b751bfce25a1eb609c50fd10ff", "1e85e48b167e2af3bb08f273fdbd1ad6401cbe75057fa6513f97387dc7b282dc", "2d9ec33de39f4d9c64ad7322ede0521d85829ce36a76f9dd3d6ab76a9c8648e5",]
+parso = [ "cdef26e8adc10d589f3ec4eb444bd0a29f3f1eb6d72a4292ab8afcb9d68976a6", "f0604a40b96e062b0fd99cf134cc2d5cdf66939d0902f8267d938b0d5b26707f",]
+pexpect = [ "3fbd41d4caf27fa4a377bfd16fef87271099463e6fa73e92a52f92dfee5d425b", "2a8e88259839571d1251d278476f3eec5db26deb73a70be5ed5dc5435e418aba",]
+pickleshare = [ "c9a2541f25aeabc070f12f452e1f2a8eae2abd51e1cd19e8430402bdf4c1d8b5", "84a9257227dfdd6fe1b4be1319096c20eb85ff1e82c7932f36efccfe1b09737b",]
+pluggy = [ "d345c8fe681115900d6da8d048ba67c25df42973bda370783cd58826442dcd7c", "e160a7fcf25762bb60efc7e171d4497ff1d8d2d75a3d0df7a21b76821ecbf5c5", "7f8ae7f5bdf75671a718d2daf0a64b7885f74510bcd98b1a0bb420eb9a9d0cff",]
+prompt-toolkit = [ "3f473ae040ddaa52b52f97f6b4a493cfa9f5920c255a12dc56a7d34397a398a4", "1df952620eccb399c53ebb359cc7d9a8d3a9538cb34c5a1344bdbeb29fbcc381", "858588f1983ca497f1cf4ffde01d978a3ea02b01c8a26a8bbc5cd2e66d816917",]
+ptyprocess = [ "e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a", "e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365",]
+py = [ "983f77f3331356039fdd792e9220b7b8ee1aa6bd2b25f567a963ff1de5a64f6a", "29c9fab495d7528e80ba1e343b958684f4ace687327e6f789a94bf3d1915f881",]
+pygments = [ "78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d", "dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc",]
+pytest = [ "26838b2bc58620e01675485491504c3aa7ee0faf335c37fcd5f8731ca4319591", "32c49a69566aa7c333188149ad48b58ac11a426d5352ea3d8f6ce843f88199cb",]
+pytest-django = [ "534505e0261cc566279032d9d887f844235342806fd63a6925689670fa1b29d7", "7501942093db2250a32a4e36826edfc542347bb9b26c78ed0649cdcfd49e5789",]
+pytz = [ "65ae0c8101309c45772196b21b74c46b2e5d11b6275c45d251b150d5da334555", "c06425302f2cf668f1bba7a0a03f3c1d34d4ebeef2c72003da308b3947c7f749",]
+setuptools = [ "8fca9275c89964f13da985c3656cb00ba029d7f3916b37990927ffdf264e7926", "f7cddbb5f5c640311eb00eab6e849f7701fa70bf6a183fc8a2c33dd1d1672fb2",]
+simplegeneric = [ "dc972e06094b9af5b855b3df4a646395e43d1c9d0d39ed345b7393560d0b9173",]
+six = [ "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb", "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",]
+traitlets = [ "c6cb5e6f57c5a9bdaa40fa71ce7b4af30298fbab9ece9815b5d995ab6217c7d9", "9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835",]
+wcwidth = [ "f4ebe71925af7b40a864553f761ed559b43544f8f71746c2d756c7fe788ade7c", "3df37372226d6e63e1b1e1eda15c594bca98a22d33a23832a90998faa96bc65e",]

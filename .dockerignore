@@ -1,0 +1,5 @@
+.*
+*.env
+**/*.pyc
+Dockerfile
+README.md

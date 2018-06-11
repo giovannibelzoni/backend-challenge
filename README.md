@@ -4,6 +4,64 @@ The goal of this challenge is to create a web-based API using [Django](https://w
 
 To get started please fork this repository and when you're finished create a pull request.
 
+## Build + Run
+
+Use Docker Compose to build and run. Ensure host port `8000` is available for use.
+
+```
+$ docker-compose up -d
+```
+
+You may need to run `restart` after first build as database initialisation is slow.
+
+```
+$ docker-compose restart
+```
+
+Base URL: [http://localhost:8000/](http://localhost:8000/)
+
+## Test
+
+```
+$ docker-compose exec app pytest
+```
+
+## Endpoints
+
+See tests for examples.
+
+List/Create Pulses:
+
+```
+[ GET | POST ] /api/pulse/
+```
+
+Update/Delete Pulse:
+
+```
+[ PUT | PATCH | DELETE ] /api/pulse/[id]/
+```
+
+Download Pulses in CSV format:
+
+```
+GET /api/pulse/download/
+```
+
+Upload Pulses in CSV format:
+
+```
+POST /api/pulse/upload/
+```
+
+## Code Test Philosophy + Goals
+
+- Easy bootstrap to ease the pain in assessment
+- Leverage community apps to reduce errors and increase eyes on code
+- Achieve test goals in least amount of code lines as humanly possible
+- Prefer less code / simplicity over handling large input/output and edge cases to save time
+
+
 ## Brief
 
 The brief has been divided into three parts:

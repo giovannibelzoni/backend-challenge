@@ -1,0 +1,25 @@
+version: "3"
+
+volumes:
+    dbdata:
+
+services:
+    db:
+        image: mysql:8.0.2
+        env_file:
+            - mysql.env
+        volumes:
+            - "dbdata:/var/lib/mysql"
+            - "./mysql-fixtures:/docker-entrypoint-initdb.d"
+    app:
+        depends_on:
+            - db
+        build: .
+        env_file:
+            - mysql.env
+        volumes:
+            - ".:/qubit/app"
+        ports:
+            - "8000:8000"
+        stdin_open: true
+        tty: true

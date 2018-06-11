@@ -1,0 +1,1 @@
+ GRANT ALL PRIVILEGES ON test_pulses.* TO 'qubit'@'%';

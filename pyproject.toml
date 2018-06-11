@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backend-challenge"
+version = "0.1.0"
+description = "The Q-CTRL Back-end Challenge"
+authors = ["Adrian Elford"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+ipdb = "~0.11"
+Django = "~2"
+mysqlclient = "~1"
+djangorestframework = "~3.7"
+djangorestframework-jsonapi = "^2.4"
+
+[tool.poetry.dev-dependencies]
+pytest-django = "^3.0"
